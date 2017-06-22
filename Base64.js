@@ -1,5 +1,5 @@
 /**
- *create by 2014年7月9日 http://javascript.css-js.com/
+ *create by 2014年7月9日 
  *BASE64 Encode and Decode By UTF-8 unicode
  *可以和java的BASE64编码和解码互相转化
  */
