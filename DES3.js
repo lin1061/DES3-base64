@@ -13,8 +13,7 @@
  * iv:<br> 
  * padding: 可选项, 8字节的输入向量字符串（在 ECB 模式下不使用） 
  */
-//des http://www.cnblogs.com/bullub/archive/2013/05/02/3054798.html
-//this takes the key, the message, and whether to encrypt or decrypt
+
 function des (key, message, encrypt, mode, iv, padding) {
     if(encrypt) //如果是加密的话，首先转换编码
         message = unescape(encodeURIComponent(message));
